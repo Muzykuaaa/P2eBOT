@@ -1,0 +1,2 @@
+# requirements.txt
+aiogram>=3.7.0

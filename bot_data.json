@@ -1,0 +1,132 @@
+{
+  "users": {
+    "8226794980": {
+      "username": "kornaa1",
+      "joined": "2026-02-05T23:34:14.719372",
+      "purchases": [
+        {
+          "seller_id": "seller_2",
+          "keys": [
+            "MLYVLHBLJN:ecddpk86",
+            "JOVDZDADPF:buebzphy",
+            "HHULMCUCPP:iuv7x4qp",
+            "RVCHYPCKCB:fgdvovyz"
+          ],
+          "amount": 12.0,
+          "date": "2026-02-05T23:34:41.333449"
+        },
+        {
+          "seller_id": "seller_3",
+          "keys": [
+            "BKICFYPHMP:07eu7yem",
+            "AMIZSEUNIA:5dj83apv",
+            "ZGZSIKRYRG:y5parnku",
+            "KZVQDDEOFF:71td225q",
+            "VTLNSSVPPY:103qhvxu",
+            "ZLLWJAZTZY:t42usvy8",
+            "CKWXIVUAAG:ajb64y6s",
+            "SOLGBABGJR:oou96fhe",
+            "KOJYPGKSVG:3nh77h0r",
+            "TKJXNEFKAV:4vrpnq7a"
+          ],
+          "amount": 40.0,
+          "date": "2026-02-05T23:35:59.224143"
+        }
+      ]
+    }
+  },
+  "sellers": {
+    "seller_1": {
+      "name": "🔥 Mega Keys",
+      "price": 2.0,
+      "keys": [
+        "TWRPYHAKSY:bwujfzgc",
+        "KKRIQLYWWP:wstey0nx",
+        "GSMJUQQZUQ:7lsgn4t0",
+        "XHDYSGLSKT:siivw4hq",
+        "CKNTGXATNU:h8joe8lq",
+        "GXMIPMBLYX:3hb15xkg",
+        "PVEMUWSLHE:g6koq799",
+        "IRFZVCFYAZ:6b7yyi2o",
+        "VKNCBATVBA:mluo2of6",
+        "EKURDFLAYJ:3b1ktrhw",
+        "KTKNDQOPUH:ifxlolr5",
+        "GBDBLJKAXT:41kpwl4x",
+        "WDEEWKZVWN:xmxxtjw8",
+        "NCHARDMMXR:zs8khmw2",
+        "ETUQSRTFFU:t65x41ti",
+        "APJSSIPNTS:7kac1ois",
+        "XIXWDPCDXQ:4rw29d8e",
+        "XENHGNEARW:xxn1biql",
+        "JIZTDMNSCK:yet2qfpp",
+        "IQMRDDZGMI:uuldotxp"
+      ]
+    },
+    "seller_2": {
+      "name": "⚡ Pro Keys",
+      "price": 3.0,
+      "keys": [
+        "GSMRVYOVZG:zhvpvc5a",
+        "SKJIQRYXRP:stlzruhc",
+        "LEOCRHQYAR:l16nb9yq",
+        "ENCCHFALKB:6agojn2d",
+        "DLZCRRXWVK:oh9557qp",
+        "CXNPSKXWUO:jnaxsj6x",
+        "ZZNQRYRPYZ:bfo6hvrs",
+        "WDKDAUJSHQ:hckzfrz6",
+        "CDGNRKLAPU:svdy8a28",
+        "MVRFZEGYUY:dn4ma11a",
+        "TXHXBYXYHZ:rf4n0a3y",
+        "YBQQKFDHVJ:agkpcpt6",
+        "QBVNHQHIVU:h4al55bo",
+        "WIRMMSRDTG:nj70jad0",
+        "JIGPGSXKGI:7uu4m1je",
+        "UWIDLGCGJO:8tjxdtb0"
+      ]
+    },
+    "seller_3": {
+      "name": "💎 Elite Keys",
+      "price": 4.0,
+      "keys": [
+        "PEYLVFGAYM:paax0fzm",
+        "RGUNUAEKIE:oqw6jww8",
+        "UZTZZUGOLD:gpz795ik",
+        "ACSQHZKXWO:rq3ejv4l",
+        "MRWEXSOKFH:9xxgxnoe",
+        "DOXVTRMVKR:dmuma7fn",
+        "GMLJIDEOFL:eee6ri7z",
+        "KNFHJMRCPA:mvznzijt",
+        "LVABAXHWVG:2w1sz2t9",
+        "FUKKIXLQUR:tlw7jril"
+      ]
+    }
+  },
+  "reviews": [],
+  "tickets": {
+    "1": {
+      "user_id": 8226794980,
+      "message": "⚙️ Настройки",
+      "status": "closed",
+      "created": "2026-02-05T23:34:53.715593",
+      "responses": []
+    }
+  },
+  "pending_payments": {
+    "R5R0XNW54MB4": {
+      "user_id": 8226794980,
+      "seller_id": "seller_2",
+      "amount": 12.0,
+      "quantity": 4,
+      "status": "confirmed",
+      "created": "2026-02-05T23:34:19.176113"
+    },
+    "86CX1TXY1C82": {
+      "user_id": 8226794980,
+      "seller_id": "seller_3",
+      "amount": 40.0,
+      "quantity": 10,
+      "status": "confirmed",
+      "created": "2026-02-05T23:35:35.963910"
+    }
+  }
+}
