@@ -40,13 +40,23 @@ class Database:
         self._save()
     
     # === ПОЛЬЗОВАТЕЛИ ===
-    def add_user(self, user_id: int, username: str = None):
+    def add_user(self, user_id: int, username: str = None, language: str = "ru"):
         if str(user_id) not in self.data["users"]:
             self.data["users"][str(user_id)] = {
                 "username": username,
+                "language": language,
                 "joined": datetime.now().isoformat(),
                 "purchases": []
             }
+            self._save()
+    
+    def get_user_language(self, user_id: int) -> str:
+        user = self.data["users"].get(str(user_id), {})
+        return user.get("language", "ru")
+    
+    def set_user_language(self, user_id: int, language: str):
+        if str(user_id) in self.data["users"]:
+            self.data["users"][str(user_id)]["language"] = language
             self._save()
     
     def get_users_count(self) -> int:
